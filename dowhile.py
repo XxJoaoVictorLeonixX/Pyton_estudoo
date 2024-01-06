@@ -1,7 +1,7 @@
-palpite = 5
+palpite = 0
 numero = 9
 
-while bool(palpite) is True:
+while True:
     print('Adivinhe qual o numero correto:')
     palpite = int(input())
     if palpite == numero:
